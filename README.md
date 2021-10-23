@@ -6,4 +6,6 @@ Já nesse código, tentei converter a mesma aplicação para React, com o intuit
 
 # O projeto
 
-A aplicação basicamente recebe o nome de um usuário qualquer do github e retorna em um Card todas as informações do mesmo, tudo isso por meio da API pública do Github.
+A aplicação basicamente recebe o nome de um usuário qualquer do github e retorna em um Card todas as informações do mesmo, tudo isso por meio da API pública do Github. <br />
+Também foi usado no mesmo, o reac-router-dom, para a nevegação entre as páginas, caso haja a necessidade de criar alguma outra tela.
+
