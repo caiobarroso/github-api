@@ -42,3 +42,18 @@
     font-size: 0.9rem;
     margin-left: 0.5rem;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.repo {
+    background-color: #2a2a72;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 0.8rem;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}

@@ -5,7 +5,7 @@ import '../styles/Card.css'
 export default props => {
 
     const url = `https://api.github.com/users/${props.name}`
-    const [repos, setRepos] = useState(null)
+    const [repos, setRepos] = useState({})
 
     useEffect(() => {
         axios.get(url + '/repos')
@@ -15,9 +15,15 @@ export default props => {
     }, [url])
 
     return (
-      <div id='repos'>
-
-      </div>
+        <div className='repos'>
+            {
+                Array.from(repos, child => (
+                    <div className="repo">
+                        <a href={child.html_url} target="_blank">{child.name}</a>
+                    </div>
+                ))
+            }
+        </div>
     )
 
 }
