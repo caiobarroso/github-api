@@ -22,7 +22,9 @@
 }
 
 .user-info h2 {
+    display: flex;
     margin-top: 0;
+    margin-left: 2rem;
 }
 
 .user-info ul {
@@ -41,6 +43,10 @@
 .user-info ul li strong {
     font-size: 0.9rem;
     margin-left: 0.5rem;
+}
+
+.repos {
+    display: flex;
 }
 
 a {
