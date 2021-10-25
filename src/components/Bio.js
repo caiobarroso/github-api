@@ -35,7 +35,6 @@ export default props => {
                     <div className='repos'>
                         {<Repos name={name}/>}
                     </div>
-                    
                 </div>
             </div>
     }

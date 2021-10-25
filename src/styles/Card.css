@@ -47,10 +47,6 @@ a {
     text-decoration: none;
 }
 
-.repos {
-    background-color: red;
-}
-
 .repo a {
     background-color: #2a2a72;
     border-radius: 5px;
