@@ -15,7 +15,7 @@ export default props => {
     }, [url])
 
     return (
-        <div className='repos'>
+        <div className='repo'>
             {
                 Array.from(repos, child => (
                     <div className="repo">

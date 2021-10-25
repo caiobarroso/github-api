@@ -24,9 +24,7 @@
 .user-info h2 {
     display: flex;
     margin-top: 0;
-    margin-left: 2rem;
 }
-
 .user-info ul {
     display: flex;
     justify-content: space-between;
@@ -44,22 +42,23 @@
     font-size: 0.9rem;
     margin-left: 0.5rem;
 }
-
-.repos {
-    display: flex;
-}
-
 a {
     color: white;
     text-decoration: none;
 }
 
-.repo {
+.repos {
+    background-color: red;
+}
+
+.repo a {
     background-color: #2a2a72;
     border-radius: 5px;
-    display: inline-block;
     font-size: 0.8rem;
+    padding: 0.25rem;
+}
+
+.repo {
+    display: inline-block;
     padding: 0.25rem 0.5rem;
-    margin-right: 0.5rem;
-    margin-bottom: 0.5rem;
 }
