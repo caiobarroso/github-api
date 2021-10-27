@@ -15,15 +15,9 @@ export default props => {
     }, [url])
 
     return (
-        <div>
-            {
-                Array.from(repos, child => (
-                    <div className="repo">
-                        <a href={child.html_url} target="_blank">{child.name}</a>
-                    </div>
-                ))
-            }
-        </div>
+        Array.from(repos, child => (
+            <a className="repo" href={child.html_url} target="_blank">{child.name}</a>
+        ))
     )
 
 }
