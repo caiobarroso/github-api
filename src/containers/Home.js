@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import '../styles/Home.css'
-import Card from '../components/Card'
+import Bio from '../components/Card'
 
 function Home() {
 
@@ -22,7 +22,7 @@ function Home() {
         <body>
             <div className='form'>
                 <form onSubmit={handleSubmit}>
-                    <input id="search" type="text" placeholder="Search for a github user" onChange={e => setValue(e.target.value)} />
+                    <input id="search" type="text" placeholder="Pesquise por um usuário" onChange={e => setValue(e.target.value)} />
                 </form>
                 {showError &&
                     <h1>informe um usuário..</h1>
@@ -30,7 +30,7 @@ function Home() {
             </div>
             <main>
                 {submit &&
-                    <Card name={value} />
+                    <Bio name={value} />
                 }
             </main>
         </body>

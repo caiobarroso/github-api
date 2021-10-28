@@ -16,8 +16,7 @@ export default props => {
 
     return (
         Array.from(repos, child => (
-            <a className="repo" href={child.html_url} target="_blank">{child.name}</a>
+            <a className="repo" href={child.html_url} target="_blank" rel="noreferrer">{child.name} </a>
         ))
     )
-
 }
