@@ -22,7 +22,7 @@ export default props => {
         content = 
             <div className='card'>
                 <div>
-                    <img className="avatar" src={user.avatar_url} alt={user.name} />
+                    <a href={user.html_url} target="_blank"><img className="avatar" src={user.avatar_url} alt={user.name} /></a>
                 </div>
                 <div className="user-info">
                     <h2>{user.name}</h2>

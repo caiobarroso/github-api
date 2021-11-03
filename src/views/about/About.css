@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,600&display=swap');
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* SECTION 1 CSS */
+.section-01 {
+    background-color: rgb(25, 230, 140);
+    padding-top: 4em;
+    padding-bottom: 7rem;
+    text-align: center;
+}
+.section-01 .images img{
+    height: 130px;
+    width: 130px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.section-01 .text-area #main-title {
+    font-size: 38px;
+    line-height: 56px;
+    letter-spacing: -1px;
+    margin-bottom: 1rem;
+}
+.section-01 .text-area #subtitle {
+    margin-bottom: 2.5rem;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.section-01 button {
+    background-color: white;
+    border: none;
+    padding: 15px 30px 15px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 12px;
+}
+/* END OF SECTION 1  */
+
+/* SECTION 2 CSS */
+.section-02 {
+    background-color: white;
+    padding: 70px 15px;
+    text-align: center;
+}
+.section-02 .text-area #main-title {
+    font-size: 32px;
+}
+.section-02 .text-area #subtitle {
+    font-size: 16px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.section-02 .icons img{
+    margin-left: 20px;
+}
+/* END OF SECTION 2 */
+
+/* SECTION 3 CSS */
+.section-03 {
+    display: block;
+    background-color: rgb(34, 35, 38);
+    padding: 70px 15px 50px;
+    text-align: center;
+}
+.section-03 .image img {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    
+} 
+.section-03 .text-area h3 {
+    color: white;
+    font-size: 32px;
+}
+
+.section-03 .allElements {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.section-03 .allElements #links{
+    display: flex;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.section-03 .allElements #links li {
+    margin-left: 25px;
+    font-size: 16px;
+}
+/* END OF SECTION 3 */

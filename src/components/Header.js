@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/Nav.css'
+import '../styles/Header.css'
 import {Link} from 'react-router-dom'
 
 function Nav() {
@@ -14,10 +14,10 @@ function Nav() {
            <h3>Logo</h3>
            <ul className='nav-links'>
                 <Link to="/" style={navStyle}>
-                    <li>Home</li>
+                    <li>github-api</li>
                </Link>
                <Link to="/about" style={navStyle}>
-                    <li>About</li>
+                    <li>cs:go</li>
                </Link>
                <Link to="/shop" style={navStyle}>
                     <li>About</li>
