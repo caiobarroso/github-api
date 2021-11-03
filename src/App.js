@@ -1,12 +1,12 @@
 import React from 'react';
-import './styles/App.css'
+import './App.css'
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
-import {Home, About, Shop} from './views'
+import {Github, Shop, Spotify} from './views'
 
-import Nav from './components/Header'
-import Footer from './components/Footer'
+import Nav from './components/header'
+import Footer from './components/footer'
 
 function App() {
     return (
@@ -15,8 +15,8 @@ function App() {
                 <Router>
                     <Nav/>
                     <Switch>
-                        <Route path="/" exact component={Home} />
-                        <Route path="/about" component={About} />
+                        <Route path="/" exact component={Github} />
+                        <Route path="/about" component={Spotify} />
                         <Route path="/shop" component={Shop} />
                     </Switch>
                 </Router>

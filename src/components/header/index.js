@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/Header.css'
+import './styles.css'
 import {Link} from 'react-router-dom'
 
 function Nav() {
@@ -17,10 +17,10 @@ function Nav() {
                     <li>github-api</li>
                </Link>
                <Link to="/about" style={navStyle}>
-                    <li>cs:go</li>
+                    <li>spotify</li>
                </Link>
                <Link to="/shop" style={navStyle}>
-                    <li>About</li>
+                    <li>...</li>
                </Link>
            </ul>
        </nav>

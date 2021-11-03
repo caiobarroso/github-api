@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-import '../styles/Card.css'
+import '../card/styles.css'
 
 export default props => {
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import './Shop.css'
+import './styles.css'
 
 function Shop() {
     return (

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import './Home.css'
-import Bio from '../../components/Card'
+import './styles.css'
+import Bio from '../../components/card'
 
 function Home() {
 

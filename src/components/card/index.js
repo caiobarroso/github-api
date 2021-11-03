@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-import '../styles/Card.css'
-import Repos from './Repos'
+import './styles.css'
+import Repos from '../repos'
 
 export default props => {
 

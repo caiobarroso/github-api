@@ -1,3 +1,3 @@
-export {default as About} from './about/About';
-export {default as Home} from './home/Home';
-export {default as Shop} from './shop/Shop';
+export {default as Spotify} from './spotify';
+export {default as Github} from './github';
+export {default as Shop} from './shop';
