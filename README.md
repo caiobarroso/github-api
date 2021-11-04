@@ -2,7 +2,7 @@
 
 Este é um projeto adaptado do vídeo de Florinpop17 (https://www.youtube.com/watch?v=dtKciwk_si4&t=20881s). <br />
 No video o projeto é desenvolvido em html/css. <br />
-Já nesse código, tentei converter a mesma aplicação para React, com o intuito de uma maior aprendizagem sobre a biblioteca, usando o padrão MVC(Model View Controller).
+Já nesse código, tentei converter a mesma aplicação para React, com o intuito de uma maior aprendizagem sobre a biblioteca, usando o padrão MVC (Model View Controller).
 
 # O projeto
 
