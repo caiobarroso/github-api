@@ -12,7 +12,7 @@ function Nav() {
     return (
        <nav>
            <h3>Logo</h3>
-           <ul className='nav-links'>
+           <div className='nav-links'>
                 <Link to="/" style={navStyle}>
                     <li>github-api</li>
                </Link>
@@ -22,7 +22,7 @@ function Nav() {
                <Link to="/shop" style={navStyle}>
                     <li>...</li>
                </Link>
-           </ul>
+           </div>
        </nav>
     )
 }

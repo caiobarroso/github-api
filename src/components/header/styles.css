@@ -9,8 +9,11 @@ nav {
 
 .nav-links {
     width: 40%;
+    height: 80%;
     display: flex;
+    position: relative;
     justify-content: space-around;
     align-items: center;
     list-style: none;
+    left: 10rem;
 }
